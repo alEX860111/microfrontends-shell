@@ -1,13 +1,20 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Angular Elements</title>
-    <base href="/">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <app-a></app-a>
-    <script type="text/javascript" src="app-a.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Angular Elements</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <h1>microfrontends demo</h1>
+  <app-a id="app-a"></app-a>
+  <app-b id="app-b"></app-b>
+  <script type="text/javascript" src="app-a.js"></script>
+  <script type="text/javascript" src="app-b.js"></script>
+  <script type="text/javascript" src="shell.js"></script>
+</body>
+
 </html>
